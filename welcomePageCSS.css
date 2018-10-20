@@ -1,0 +1,21 @@
+.welcomeText{
+    font-size: 60px;
+    color: red;
+    position: absolute;
+  
+}
+
+.container{
+    background-color: aquamarine;
+}
+
+.myProjects{
+    position: relative;
+}
+
+.showCV{
+    background-color:yellow;
+}
+.myProjects{
+    background-color: green;
+}
