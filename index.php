@@ -13,7 +13,7 @@
 <body>
 
         <?php 
-            include('navbar.php');
+            include('inc/navbar.php');
         ?>
 
     <div class="content">
