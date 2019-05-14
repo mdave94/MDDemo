@@ -17,12 +17,26 @@
         ?>
 
     <div class="content">
-        Hey, I'm David
+              
 
-        <div>
-            ABOUT ME
-        </div>
-                 
+                <div class="aboutme">
+                   <h2> ABOUT ME</h2>
+                    <div class="col-left" >
+                        <img src="inc/me.jpg" alt="lama pict about me"/>
+                    </div>
+                    <div class="col-right">
+                        <p>
+                            I'm a Junior Web developer with some real life projects.
+                            My currently stack is : JavaScript,HTML5,CSS3,Laravel ( main web :D ).
+                            I want be more efficient with C# and Java. 
+                            And I want just try Python, ( for fun ).
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="projects"> 
+                    MY PROJECTS
+                </div>
 
       </div>
       

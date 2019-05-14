@@ -52,7 +52,7 @@ header {
 }
 
 .content {
-    width: 94%;
+    width: 100%;
     margin: 4em auto;
     font-size: 20px;
     line-height: 30px;
@@ -147,5 +147,23 @@ nav ul li a {
     .menu-icon {
           display: block;
     }
+
+
+    /*---------ABOUT ME SECTION -------------------*/
+
+.aboutme{
+   
+    width: 100%;
+}
+
+.aboutme .col-left, .aboutme .col-right{
+    width: 50%;
+}
+
+.aboutme .col-left img {
+    max-width: 30%;
+}
+
+    /*---------ABOUT ME SECTION END -------------------*/
 
 }
