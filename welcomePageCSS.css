@@ -1,12 +1,10 @@
 .welcomeText{
     font-size: 60px;
     color: white;
-    position:absolute;
-    padding-left: 40vw;
-    padding-top: 40vh;
     animation: fadeIn 3s;
-
-
+    text-align: center;
+    position: relative;
+    top: 50%;
 }
 
 @keyframes fadeIn{

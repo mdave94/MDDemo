@@ -1,8 +1,6 @@
 <div class="wrapper">
                 <header>
-                            <div class="welcomeText">
-                                Hello, I'm David
-                            </div>
+                        
                     <nav>
 
                             <div class="menu-icon">
@@ -21,7 +19,9 @@
                                 </ul>
                             </div>
                     </nav>
-                
+                    <div class="welcomeText">
+                                Hello, I'm David
+                            </div>
                 </header>
 
             
