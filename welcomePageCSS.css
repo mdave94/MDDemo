@@ -37,7 +37,9 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-}
+    
+    
+    }
 
 body {
     font-family: "Helvetica Neue",sans-serif;
@@ -51,13 +53,7 @@ header {
     background-size: cover;
 }
 
-.content {
-    width: 100%;
-    margin: 4em auto;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: justify;
-}
+
 
 .logo {
     line-height: 60px;
@@ -148,22 +144,31 @@ nav ul li a {
           display: block;
     }
 
-
-    /*---------ABOUT ME SECTION -------------------*/
+}
+/*---------ABOUT ME SECTION -------------------*/
 
 .aboutme{
-   
+  
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
     width: 100%;
 }
 
-.aboutme .col-left, .aboutme .col-right{
+.aboutme .col-left,.aboutme .col-right{
     width: 50%;
+   
+   
 }
-
+.aboutme h2{
+    text-align:center;
+    padding-left:50px;
+}
 .aboutme .col-left img {
-    max-width: 30%;
+    width:70%;
+}
+.projects .first_project img {
+    width: 30%;
 }
 
     /*---------ABOUT ME SECTION END -------------------*/
-
-}

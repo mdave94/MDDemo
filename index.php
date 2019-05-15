@@ -16,15 +16,16 @@
             include('inc/navbar.php');
         ?>
 
-    <div class="content">
-              
 
+              
+<!-- ########################### ABOUT ME section ####################################### -->
                 <div class="aboutme">
-                   <h2> ABOUT ME</h2>
-                    <div class="col-left" >
-                        <img src="inc/me.jpg" alt="lama pict about me"/>
+                     <h2> ABOUT ME</h2>
+                    <div class="col-left " >
+                        <img src="inc/web-development-2.png"  />
                     </div>
                     <div class="col-right">
+                        <h3>Molnár Dávid</h3>
                         <p>
                             I'm a Junior Web developer with some real life projects.
                             My currently stack is : JavaScript,HTML5,CSS3,Laravel ( main web :D ).
@@ -33,12 +34,21 @@
                         </p>
                     </div>
                 </div>
-                
-                <div class="projects"> 
+
+<!-- ########################### ABOUT ME section END ####################################### -->
+                <div class="projects row"> 
                     MY PROJECTS
+                    <div class="first_project col-6">
+                        <img src="inc/jobtraining.png" >
+
+
+
+                    </div>
+
+
                 </div>
 
-      </div>
+
       
 
 </body>
