@@ -19,12 +19,14 @@
 
               
 <!-- ########################### ABOUT ME section ####################################### -->
-                <div class="aboutme">
+        <section class="aboutme_section">
+                <div class="aboutme row">
                      <h2> ABOUT ME</h2>
-                    <div class="col-left " >
+                <div style="display:flex">
+                    <div class="icon-wrapper col-6 col-right" >
                         <img src="inc/web-development-2.png"  />
                     </div>
-                    <div class="col-right">
+                    <div class="text_aboutme col-left">
                         <h3>Molnár Dávid</h3>
                         <p>
                             I'm a Junior Web developer with some real life projects.
@@ -33,23 +35,29 @@
                             And I want just try Python, ( for fun ).
                         </p>
                     </div>
+                 </div>
                 </div>
-
+            </section>
 <!-- ########################### ABOUT ME section END ####################################### -->
-                <div class="projects row"> 
-                    MY PROJECTS
-                    <div class="first_project col-6">
-                        <img src="inc/jobtraining.png" >
-
-
-
+            <section class="projects_section">
+             <h2>   MY PROJECTS</h2>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="inc/jobtraining.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Portfolio page with Adam Martona</p>
                     </div>
-
-
                 </div>
 
 
-      
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="inc/jobtraining.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">Portfolio page with Adam Martona</p>
+                    </div>
+                </div>
+            </section>
+
+         
 
 </body>
 </html>

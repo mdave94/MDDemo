@@ -45,7 +45,9 @@ body {
     font-family: "Helvetica Neue",sans-serif;
     font-weight: lighter;
 }
-
+h2{
+    margin-top:0px;
+}
 header {
     width: 100%;
     height: 100vh;
@@ -148,27 +150,63 @@ nav ul li a {
 /*---------ABOUT ME SECTION -------------------*/
 
 .aboutme{
-  
+   
     font-size: 20px;
     line-height: 30px;
     text-align: justify;
     width: 100%;
+
 }
 
 .aboutme .col-left,.aboutme .col-right{
     width: 50%;
-   
-   
 }
-.aboutme h2{
+.text_aboutme{
+    width:50%;
+}
+.aboutme, .projects_section h2{
     text-align:center;
     padding-left:50px;
 }
-.aboutme .col-left img {
-    width:70%;
+.aboutme .icon-wrapper img {
+    width: 100%;
+    float: right;
+    max-width: 414px;
+    max-height: 300px;
 }
-.projects .first_project img {
-    width: 30%;
+.card-img-top {
+    width: 100%;
+    border-radius: 20% 20% 0 0;
+    justify-content: center;
+}
+.card-body{
+    background-color: white;
+}
+.card-body p {
+    margin :0px ;
 }
 
+.text_aboutme p{
+    width: 70%;
+}
     /*---------ABOUT ME SECTION END -------------------*/
+
+    /*--------------MY PROJECTS --------------------- */
+.projects{
+    display: flex;
+}
+
+.projects_section{
+    background: #dbe3fa;
+    display:felx;
+    flex:wrap;
+}
+
+.projects img{
+    border-radius: 20% 20% 0 0;
+}
+
+
+
+
+    /*--------------MY PROJECTS  END--------------------- */
